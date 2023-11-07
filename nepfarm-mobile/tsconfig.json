@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "@nepfarm/*": ["src/*"]
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

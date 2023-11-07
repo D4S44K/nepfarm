@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: line_items
+#
+#  id               :bigint           not null, primary key
+#  product_id       :bigint           not null
+#  desired_quantity :integer
+#  desired_unit     :integer
+#  farmer_id        :integer
+#  order_id         :bigint           not null
+#  total_price      :float
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
+one:
+  product: one
+  desired_quantity: 1
+  desired_unit: 1
+  farmer_id: 1
+  order: one
+  total_price: 1.5
+
+two:
+  product: two
+  desired_quantity: 1
+  desired_unit: 1
+  farmer_id: 1
+  order: two
+  total_price: 1.5
