@@ -12,7 +12,7 @@ module.exports = {
           components: './src/components',
           constants: './src/constants',
           helpers: './src/helpers',
-          // redux: './src/custom-redux',
+          custom_redux: './src/custom-redux',
           routes: './src/routes',
           screens: './src/screens',
           utils: './src/utils',
